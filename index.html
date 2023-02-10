@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo__container">
+                <img src="" alt="logo du site">
+            </div>
+            <ul class="nav__ul">
+                <li class="nav__li"> <a href="#accueil__title"> Accueil</a> </li>
+                <li class="nav__li"> <a href="#services__title"> Services</a> </li>
+                <li class="nav__li"> <a href="#contact__title"> Contact</a> </li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <img 
+                class="banner__img" 
+                src="./assets/batiment.png" 
+                alt="bâtiment en construction"
+            >
+        </section>
+        <div class="hero">
+            <h1 id="accueil__title"> Construisons  </h1> <span> vos projets </span>
+            <button type="submit" class="call-to-action"> Devis gratuit</button>
+        </div>      
+    </header>
+    <main>
+        <section class="home__section">
+            <p class="home__intro">
+                Bienvenue chez [Nom de l'entreprise], une entreprise de construction 
+                de premier ordre spécialisée dans les travaux de bâtiment. 
+            </p>
+            <p class="home__p">
+                Nous sommes fiers de fournir des services de qualité supérieure à nos clients,
+                alliant expertise technique et passion pour le métier.
+                Notre équipe expérimentée est composée de professionnels talentueux et dévoués 
+                qui travaillent en étroite collaboration avec nos clients pour comprendre 
+                leurs besoins et leur offrir des solutions sur mesure. Nous nous engageons à 
+                respecter les délais et à gérer les projets avec diligence et professionnalisme, 
+                tout en veillant à ce que la qualité de notre travail soit toujours irréprochable.
+            </p> 
+        </section>      
+        <section class="services__section">
+            <h2 id="services__title"> Services </h2>
+                <img 
+                    class=" services__img" 
+                    src="./assets/construire.jpg" 
+                    alt="ouvrier en train d'étaler du béton"
+                >
+                    <p class="services__p">
+                        Nous sommes spécialisés dans une large gamme de services de construction, 
+                        allant des petits travaux de rénovation aux grands projets de construction neuve. 
+                        Que ce soit pour des projets résidentiels ou commerciaux, nous mettons 
+                        notre savoir-faire à votre disposition pour garantir des résultats exceptionnels.
+                    </p>        
+        </section>
+        <section>                                      
+            <article class="services__article">
+                Chez [Nom de l'entreprise], nous sommes fiers de notre engagement en faveur 
+                de la qualité, de l'efficacité et de la satisfaction de nos clients. 
+                Nous nous engageons à offrir un service incomparable à chaque client, 
+                quel que soit le projet. Contactez-nous dès aujourd'hui pour discuter de 
+                vos projets de construction
+                et découvrir comment nous pouvons vous aider à les réaliser.
+            </article>                     
+        </section>
+        <section class="contact__section">
+            <img 
+                class="contact__img" 
+                src="./assets/phone.jpg" 
+                alt="une personne tenant son téléphone"
+            >
+            <h2 id="contact__title"> Contact </h2>
+            <p class="contact__p"> N'hésitez pas à nous demander un devis gratuit </p>               
+                <form>
+                    <div>
+                        <div class="form__row">
+                            <label for="name"> Nom </label>
+                            <input id="name" />
+                        </div>
+                        <div class="form__row">
+                            <label for="firstname"> Prénom </label>
+                            <input id="firstname" />
+                        </div>
+                        <div class="form__row">
+                            <label for="email"> Email</label>
+                            <input id="email" />
+                        </div>
+                        <div class="form__row">
+                            <label for="phone"> Téléphone </label>
+                            <input id="phone" />
+                        </div>
+                        <div class="form__row">
+                            <button type="submit" class="form__btn"> Envoyer </button>
+                        </div>
+                        
+                    </div>
+                </form>
+            </section>
+        </main>
+      
+</body>
+</html>
