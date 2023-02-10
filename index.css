@@ -92,7 +92,7 @@ span {
 .home__p {
     margin:  0;
     padding: 20px;
-    color: rgb(177, 177, 177);
+    color: rgb(122, 122, 122);
     background-color: white;
 }
 
@@ -151,6 +151,7 @@ span {
 }
 
 .services__article {
+    position: relative;
     padding: 30px;
     font-weight: bold;
     background-color: white;
@@ -170,7 +171,7 @@ span {
 .services__p {
     width: 270px;
     position: relative;
-    bottom: 450px;
+    bottom: 460px;
     z-index: 2;
     opacity: 0.8; 
     margin: 30px auto;
@@ -184,6 +185,7 @@ span {
 /* Contact */
 
 .contact__section {
+    position: relative;
     color: white;
     margin: 0;
     padding: 0;
@@ -193,7 +195,7 @@ span {
 }
 
 #contact__title, form, .contact__p {
-    position: relative; 
+    position: relative;
     z-index: 2;
 }
 
@@ -202,7 +204,7 @@ span {
 }
 
 #contact__title {
-    bottom: 580px;
+    top: 40px;
     width: 160px;
     margin: 20px auto;
     border-radius: 10px;
@@ -211,12 +213,12 @@ span {
 }
 
 .contact__p {
-    bottom: 560px;
+    top: 60px;
 }
 
 .contact__img {
     z-index: 1;
-    position: relative;
+    position: absolute;
     margin: 0;
     height: 850px;
     width: 100%;
@@ -226,7 +228,7 @@ span {
 form {
     width: 80%;
     max-width: 500px;
-    bottom: 620px;
+    bottom: 10px;
     margin: 100px auto;
     display: flex;
     justify-content: center;
